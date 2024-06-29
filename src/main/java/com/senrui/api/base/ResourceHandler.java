@@ -9,6 +9,6 @@ public interface ResourceHandler {
 
     public BaseResponse processGet(Map<String, Object> queryParams);
 
-    public BaseResponse processPost(Map<String, Object> queriesParams, BaseRequest baseRequest);
+    public BaseResponse processPost(Map<String, Object> queryParams, BaseRequest baseRequest);
 
 }

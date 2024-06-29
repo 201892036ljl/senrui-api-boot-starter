@@ -1,0 +1,58 @@
+# IntelliJ IDEA specific files
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# User-specific files
+*.idlerc
+*.idea workspace
+
+# System files
+.DS_Store
+thumbs.db
+
+# Build and output folders
+out/
+target/
+build/
+bin/
+classes/
+
+# Maven related
+mvnw
+mvnw.cmd
+.pom.xml.swp
+npm-debug.log
+yarn-error.log
+**/node_modules/
+**/bower_components/
+
+# Gradle related
+.gradle/
+build.gradle.*
+gradlew
+gradlew.bat
+
+# Logs and databases
+logs/
+data/
+db/
+
+# Test coverage reports
+coverage/
+test-results/
+
+# Local History
+local-history/
+
+# Cached files
+**/.idea/modules.xml
+**/.idea/workspace.xml
+**/.idea/tasks.xml
+**/.idea/inspectionProfiles/*
+**/.idea/dictionaries/*
+
+# Editor-based File Templates
+**/.idea/fileTemplates/*
+**/.idea/codeStyles/*
