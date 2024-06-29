@@ -47,7 +47,6 @@ public class AbstractResourceHandler implements ResourceHandler {
 
     private BaseResponse invokeMethod(Method method, Map<String, Object> queryParams, BaseRequest baseRequest) {
         try {
-            method.setAccessible(true);
             if (baseRequest == null) {
                 return (BaseResponse) method.invoke(this, queryParams);
             } else {
